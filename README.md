@@ -1,4 +1,5 @@
 # Clinical_Trail_Data_wrangler
+
 Clinical Trial Data Wrangler: Automated Patient Screening Pipeline
 
 📌 Project Overview
@@ -24,7 +25,7 @@ dosage_logs.csv: Tracks the specific treatment arm (Drug A vs. Placebo) and dosa
 
 📊 Methodology & Results
 ETL Process: Data was ingested and cleaned of "Chained Assignment" errors to ensure compatibility with modern Pandas Copy-on-Write (CoW) standards.
-Filtering: Out of the initial population, approximately 41% of patients were excluded for not meeting the age or baseline health requirements.
+Filtering: Out of the initial population, approximately 59% of patients were excluded for not meeting the age or baseline health requirements.
 Efficacy Analysis: Preliminary visualizations (Boxplots) indicate a statistically visible difference in glucose regulation between the treatment and placebo groups.
 
 🩺 About the Author
